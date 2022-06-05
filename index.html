@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Typingspeed</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <label for="level">level : </label>
+            <select name="" id="level" value="Easy">
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+            </select>
+            <h1 class="word">awesome</h1>
+            <h2 class="score">Score: </h2>
+            <form action="" onsubmit="return false;">
+                <input type="text" class="label-form" id="input" autocomplete="off">
+            </form>
+            <p class="time"></p>
+        </div>
+        <!-- Modal section -->
+        <div class="modal">
+            <h2 class="modal-title">Time is up!!!</h2>
+            <p>GAME OVER</p>
+            <p>Your Score: <span class="result"></span></p>
+            <button class="new-gam-btn">New Game</button>
+        </div>
+        <div class="overlay"></div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
