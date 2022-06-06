@@ -70,12 +70,8 @@ form.addEventListener('input', (e) => {
         timeText.textContent = `Time: ${i}s`
         score++
         scoreText.textContent = `Score: ${score}`
-
-        } else { wordTitle.style.color = 'red' }
-        
-    } else {
-        alert('GameOver!!!')
-    }
+        } else { wordTitle.style.color = 'red' }  
+    } 
     
 })
 
